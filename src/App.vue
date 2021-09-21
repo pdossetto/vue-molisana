@@ -38,5 +38,9 @@ h3 {
   color: $primary;
 }
 
+#app {
+  text-align: center;
+}
+
 
 </style>

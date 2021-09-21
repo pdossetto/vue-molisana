@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-    {{ prod.titolo }}
+  <div class="product-card">
+    <h1>{{ prod.titolo }}</h1>
+    <h2>Cottura: {{ prod.cottura }} minuti</h2>
+    <img :src="prod.src" :alt="prod.titolo">
+    <br/>
   </div>
 </template>
 

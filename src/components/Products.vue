@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Sezione prodotti interno del main</h1>
     <!-- <ul>
       <li v-for="(product, index) in products" :key="index">
         {{product.titolo}}

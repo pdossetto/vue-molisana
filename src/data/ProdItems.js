@@ -29,7 +29,7 @@ export default [
     },
     {
         src:
-            "https://www.lamolisana.it/wp-content/uploads/2017/06/11-spaghettino-quadrato-m.jpg",
+            "https://www.lamolisana.it/wp-content/uploads/2021/03/spaghettino-quadrato-classiche.jpg",
         titolo: "n.11 Spaghettino Quadrato",
         tipo: "lunga",
         cottura: 9,
