@@ -1,12 +1,34 @@
 <template>
   <div>
     <h1>Sezione prodotti interno del main</h1>
+    <!-- <ul>
+      <li v-for="(product, index) in products" :key="index">
+        {{product.titolo}}
+      </li>
+    </ul> -->
+
+    <ProductCard 
+      v-for="(product, index) in products" 
+      :key="index"
+      :prod="product"
+    />
+
   </div>
 </template>
 
 <script>
+import ProductCard from '@/components/ProductCard.vue'
+import ProdItems from '@/data/ProdItems.js'
 export default {
   name: 'Products',
+  components: {
+    ProductCard
+  },
+  data() {
+    return {
+      products: ProdItems
+    }
+  }
 }
 </script>
 

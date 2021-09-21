@@ -2,7 +2,7 @@
 
 @mixin center($type: 'both') {
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
 
     @if $type == 'vertical' {
         justify-content: center;
